@@ -9,8 +9,8 @@ main() {
             context =>
             let response = context.responseBuilder
 
-            response.header("Context-Type", "text/html")
-            response.body("<!DOCTYPE html><h1>Hello World!<h1>")
+            response.header("Content-Type", "text/html")
+            response.body("<!DOCTYPE html><h1>Hello World!</h1>")
         }
     )
 
